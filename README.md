@@ -17,13 +17,14 @@ This is an app where you can register multiple households and log how much recyc
 ## Screenshots
 
 ### Home Page
-![Home Page](Screenshot 2026-08-15 155706.png)
+![Home Page](Screenshot%202026-08-15%20155849.png)
 
 ### Register Household
-![Register Household](Screenshot 2026-08-15 155811.png)
+![Register Household](Screenshot%202026-08-15%20155811.png)
 
 ### Log Recycling Event
-![Log Recycling Event](Screenshot 2026-08-15 155849.png)
+![Log Event](Screenshot%202026-08-15%20155849.png)
+
 
 ## How to Run
 
