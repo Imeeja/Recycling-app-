@@ -1,0 +1,165 @@
+.mainFxmlClass {
+    -fx-background-color: #feffe2;
+}
+
+/* Card */
+
+.card {
+
+    -fx-background-color: white;
+
+    -fx-background-radius: 30;
+
+    -fx-padding: 40;
+
+    -fx-max-width: 550;
+
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(0,0,0,0.15),
+        25,
+        0.3,
+        0,
+        8
+    );
+}
+
+/* Title */
+
+.title-label {
+
+    -fx-font-size: 28px;
+
+    -fx-font-weight: bold;
+
+    -fx-text-fill: #800020;
+}
+
+/* Subtitle */
+
+.subtitle-label {
+
+    -fx-font-size: 20px;
+
+    -fx-font-weight: bold;
+
+    -fx-text-fill: #ffa500;
+}
+
+/* Labels */
+
+.field-label {
+
+    -fx-font-size: 14px;
+
+    -fx-font-weight: bold;
+
+    -fx-text-fill: #800020;
+}
+
+/* TextFields */
+
+.custom-textfield {
+
+    -fx-pref-width: 420;
+
+    -fx-pref-height: 42;
+
+    -fx-background-color: #feffe2;
+
+    -fx-background-radius: 12;
+
+    -fx-border-radius: 12;
+
+    -fx-border-color: #ffa500;
+
+    -fx-border-width: 2;
+
+    -fx-font-size: 14px;
+
+    -fx-padding: 0 12 0 12;
+}
+
+.custom-textfield:focused {
+
+    -fx-border-color: #800020;
+}
+
+/* Success label */
+
+.points-label {
+
+    -fx-text-fill: #800020;
+
+    -fx-font-size: 15px;
+
+    -fx-font-weight: bold;
+
+    -fx-padding: 10 0 5 0;
+}
+
+/* Log Event button */
+
+.action-button {
+
+    -fx-pref-width: 200;
+
+    -fx-pref-height: 50;
+
+    -fx-background-color: #800020;
+
+    -fx-text-fill: white;
+
+    -fx-font-size: 15px;
+
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 15;
+
+    -fx-cursor: hand;
+}
+
+.action-button:hover {
+
+    -fx-background-color: #990026;
+
+    -fx-scale-x: 1.02;
+
+    -fx-scale-y: 1.02;
+}
+
+/* Back button */
+
+.back-button {
+
+    -fx-pref-width: 200;
+
+    -fx-pref-height: 50;
+
+    -fx-background-color: transparent;
+
+    -fx-border-color: #800020;
+
+    -fx-border-width: 2;
+
+    -fx-background-radius: 15;
+
+    -fx-border-radius: 15;
+
+    -fx-text-fill: #800020;
+
+    -fx-font-size: 15px;
+
+    -fx-font-weight: bold;
+
+    -fx-cursor: hand;
+}
+
+.back-button:hover {
+
+    -fx-background-color: rgba(128,0,32,0.08);
+
+    -fx-scale-x: 1.02;
+
+    -fx-scale-y: 1.02;
+}

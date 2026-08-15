@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="550.0"
+            prefWidth="1000.0"
+            styleClass="mainFxmlClass"
+            xmlns="http://javafx.com/javafx/25"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="javaapplication6.HpageController">
+
+    <stylesheets>
+        <URL value="@hpage.css" />
+    </stylesheets>
+
+    <children>
+
+        <StackPane maxHeight="600.0"
+                   prefHeight="600.0"
+                   AnchorPane.bottomAnchor="0.0"
+                   AnchorPane.leftAnchor="0.0"
+                   AnchorPane.rightAnchor="0.0"
+                   AnchorPane.topAnchor="0.0">
+
+            <children>
+
+                <VBox alignment="CENTER"
+                      spacing="15"
+                      styleClass="card">
+
+                    <children>
+
+                        <Label styleClass="title-label"
+                               text="Eco-Points Recycling Tracker" />
+
+                        <Label styleClass="subtitle-label"
+                               text="Choose an option:">
+
+                            <VBox.margin>
+                                <Insets bottom="15" />
+                            </VBox.margin>
+
+                        </Label>
+
+                        <Button onAction="#registerHousehold"
+                                styleClass="menu-button"
+                                text="Register Household" />
+
+                        <Button onAction="#logEvent"
+                                styleClass="menu-button"
+                                text="Log Recycling Event" />
+
+                        <Button onAction="#displayHouseholds"
+                                styleClass="menu-button"
+                                text="Display Households" />
+
+                        <Button onAction="#displayEvents"
+                                styleClass="menu-button"
+                                text="Display Household Recycling Events" />
+
+                        <Button onAction="#generateReports"
+                                styleClass="menu-button"
+                                text="Generate Reports" />
+
+                        <Button onAction="#saveAndExit"
+                                styleClass="exit-button"
+                                text="Save and Exit">
+
+                            <VBox.margin>
+                                <Insets top="10" />
+                            </VBox.margin>
+
+                        </Button>
+
+                    </children>
+
+                </VBox>
+
+            </children>
+
+        </StackPane>
+
+    </children>
+
+</AnchorPane>
